@@ -9,7 +9,7 @@ open the terminal and type:
 
 cd factera/
 
-In order to be able to run factera you have to be sure that you installed the requirements correctly.
+In order to be able to run factera, you have to be sure that you installed the requirements correctly.
 Requiremnets:
 
 1. perl:
@@ -18,14 +18,15 @@ Requiremnets:
 
 2. Download hg19.bit throgh this link: https://hgdownload.cse.ucsc.edu/goldenpath/hg19/bigZips/
 
-3. twoBitToFa suitable to your system. My system is linux (red hat) x86_64: So:
+3. twoBitToFa suitable to your system.
+   
    rsync -aP rsync://hgdownload.soe.ucsc.edu/genome/admin/exe/linux.x86_64/twoBitToFa ./
    Also, add twoBitToFa to /usr/bin/
    You can download it manually also by going to website http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/ and search for twoBitToFa and click on it. 
    you can check the installation by running:
    /usr/bin/twoBitToFa hg19.2bit test.fa
 
-4. Last, you need to install blast. Downlod the ncbi-blast-2.15.0+-3.x86_64.rpm file throgh this link https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
+5. Last, you need to install blast. Downlod the ncbi-blast-2.15.0+-3.x86_64.rpm file throgh this link https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
    then run:
    rpm -ivh ncbi-blast-2.15.0+-3.x86_64.rpm to install it.
 
