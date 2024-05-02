@@ -1,5 +1,5 @@
 # Factera
-How to install Factera on your linux:
+How to install Factera on your linux. x86_64:
 
 First go to the https://factera.stanford.edu/download.php website and make an account.
 Navigate to Download section and follow the steps:
