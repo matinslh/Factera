@@ -51,11 +51,11 @@ DESCRIPTION
 When you did all, now you can sure the installation by downloading and running the example data in the website:
 perl factera.pl -o test HCC78.bam exons.bed hg19.2bit targets.bed
 
-If you get almost the same output (2 fusions), you are good to go with your own data. \/
+If you get almost the same output (2 fusions), you are good to go with your own data.
 mkdir output
 
 You need the bam files, an output directory, exons.bed which is in inside the facter folder and your target bed file. 
-Keep in mind that all is for hgq9, so you need the "chr" written in bam files and bed files. 
+Keep in mind that all is for hg19, so you need the "chr" written in bam files and bed files. 
 
 make a text file in the factera directory which contains all your patient id. example:
 sample1.bam
