@@ -9,7 +9,7 @@ open the terminal and type:
 
 cd factera/
 
-In orderr to able to run factera you have to be sure that you installed the requirements correctly.
+In orderr to be able to run factera you have to be sure that you installed the requirements correctly.
 Requiremnets:
 
 1. perl:
