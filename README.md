@@ -5,10 +5,11 @@ First go to the https://factera.stanford.edu/download.php website and make an ac
 Navigate to Download section and follow the steps:
 
 Download factera version 1.4.4 from website.
+opren the terminal and type: 
 
 cd factera/
 
-In oredr to able to run factera you have to be sure that you installed the requirements correctly.
+In orderr to able to run factera you have to be sure that you installed the requirements correctly.
 Requiremnets:
 
 1. perl:
