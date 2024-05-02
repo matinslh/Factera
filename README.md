@@ -47,13 +47,6 @@ Requiremnets:
 DESCRIPTION
    Application to create BLAST databases, version 2.15.0+
 
-Use '-help' to print detailed descriptions of command line arguments
-========================================================================
-
-Error: Argument "dbtype". Mandatory value is missing:  `String, `nucl', `prot''
-Error:  (CArgException::eNoArg) Argument "dbtype". Mandatory value is missing:  `String, `nucl', `prot''
-
-
 
 When you did all, now you can sure the installation by downloading and running the example data in the website:
 perl factera.pl -o test HCC78.bam exons.bed hg19.2bit targets.bed
